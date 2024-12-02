@@ -1,0 +1,37 @@
+body{
+background-color: rgba(128, 128, 128, 0.519);
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+}
+.container{
+width: 500px;
+height: 500px;
+border: 2px solid rgba(0, 132, 255, 0.735);border-radius: 10px;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+background-color: rgba(0, 0, 255, 0.539);
+}
+#box{
+height: 120px;
+width: 120px;
+border: 2px solid rgba(0, 38, 128, 0.382);
+border-radius: 10px;
+margin: auto;
+background-color: white;
+color: rgb(0, 9, 128);
+font-size: 90px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+button{
+margin-top: 50px;
+width: 200px;
+height: 30px;
+border-radius: 5px;
+border-color: green;
+}
